@@ -13,4 +13,6 @@ $api = new eEndorsementsAPIExchange($keys);
 
 $user = $api->makeRequest('http://brayden.eendorsements.com/api/users/view/me');
 
-var_dump($user); // shows user info
+$user = json_decode($user, true);
+
+echo 'Full name: ' . $user['first_name'] . ' ' . $user['last_name'];
