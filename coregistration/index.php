@@ -25,7 +25,7 @@
 				<label for="username">Username:</label>
 				<input type="text" name="username" id="username">
 				<label for="password">Password:</label>
-				<input type="password" name="password" id="password" value="aaabbb">
+				<input type="password" name="password" id="password">
 				<label for="companyName">Company Name:</label>
 				<input type="text" name="companyName" id="companyName">
 				<!-- .fieldWrapper --></div>
