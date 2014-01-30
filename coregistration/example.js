@@ -6,7 +6,7 @@ $(function() {
 
 		$('.coRegWrapper').removeClass('error');
 
-		var required = ['firstName', 'lastName', 'emailAddress', 'username', 'password', 'companyName'];
+		var required = ['firstName', 'lastName', 'emailAddress', 'password', 'companyName'];
 
 		for(var i in required)
 		{

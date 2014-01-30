@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -16,17 +17,17 @@
 		<form action="http://acme.com" method="post">
 			<fieldset>
 				<div class="fieldWrapper">
-				<label for="firstName">First Name</label>
+				<label for="firstName">First Name<span>*</span></label>
 				<input type="text" name="firstName" id="firstName">
-				<label for="lastName">Last Name</label>
+				<label for="lastName">Last Name<span>*</span></label>
 				<input type="text" name="lastName" id="lastName">
-				<label for="email">Email Address:</label>
+				<label for="email">Email Address<span>*</span></label>
 				<input type="text" name="email" id="email">
-				<label for="username">Username:</label>
+				<label for="username">Username</label>
 				<input type="text" name="username" id="username">
-				<label for="password">Password:</label>
+				<label for="password">Password<span>*</span></label>
 				<input type="password" name="password" id="password">
-				<label for="companyName">Company Name:</label>
+				<label for="companyName">Company Name<span>*</span></label>
 				<input type="text" name="companyName" id="companyName">
 				<!-- .fieldWrapper --></div>
 				<div class="coRegWrapper">

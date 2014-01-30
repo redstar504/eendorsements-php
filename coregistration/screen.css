@@ -38,13 +38,26 @@ form {
 .fieldWrapper label {
 	display:inline-block;
 	width:300px;
-	margin:16px 0;
+	margin:16px 24px;
+	position:relative;
+}
+
+.fieldWrapper label span {
+	color:red;
+	position:absolute;
+	top:0;
+	left:-20px;
 }
 
 .fieldWrapper input {
 	height:24px;
 	width:300px;
 	border:1px solid #DDD;
+}
+
+.fieldWrapper input:focus {
+	border:1px solid #48F;
+	box-shadow:1px 1px 16px #DDD;
 }
 
 .coRegWrapper {
@@ -89,10 +102,6 @@ form {
 	margin:8px 0;
 }
 
-.fieldWrapper input:focus {
-	border:1px solid #48F;
-	box-shadow:1px 1px 16px #DDD;
-}
 
 input, button , label {
 	font-family:arial,helvetica,sans-serif;

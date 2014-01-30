@@ -14,7 +14,7 @@ $user = array(
 	'lastName' => $_GET['lastName'],
 	'email' => $_GET['email'],
 	'password' => $_GET['password'],
-	'username' => $_GET['username'],
+	'companyName' => $_GET['companyName'],
 	'userSubscription' => array('plan' => 5)
 );
 
